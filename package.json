@@ -1,0 +1,23 @@
+{
+  "name": "easy-node-sass",
+  "version": "1.0.0",
+  "description": "Easy node-sass builder and watcher",
+  "author": "Konrad Kowalski <rootsher@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rootsher/easy-node-sass.git"
+  },
+  "keywords": ["node-sass", "watch sass", "build sass"],
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.4"
+  },
+  "bugs": {
+    "url": "https://github.com/rootsher/easy-node-sass/issues"
+  }
+}
